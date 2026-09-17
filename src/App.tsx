@@ -1,10 +1,11 @@
-
 import './App.css'
 import Companies from './components/Companies'
 import HeroSection from './components/HeroSection'
 import MiddleComponent from './components/MiddleComponent'
 import Navbar from './components/Navbar'
-import Speed from './components/Speed'
+import Features from './components/Features'
+import CtaSection from './components/CtaSection'
+// import CtaSection from './components/CtaSection'
 
 function App() {
   
@@ -14,7 +15,8 @@ function App() {
   <HeroSection />
   <Companies />
   <MiddleComponent />
-  <Speed />
+  <Features />
+  <CtaSection />
     </div>
   )
 }
