@@ -1,4 +1,4 @@
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import { motion } from "motion/react";
 
 interface ReusableSectionProps {
@@ -13,7 +13,7 @@ interface ReusableSectionProps {
   className?: string;
 }
 
-const ReusableSection = ({
+const ReusableHeroSection = ({
   heading,
   subheading,
   primaryButtonText,
@@ -65,4 +65,4 @@ const ReusableSection = ({
   );
 };
 
-export default ReusableSection;
+export default ReusableHeroSection;

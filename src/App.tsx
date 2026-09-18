@@ -5,6 +5,7 @@ import MiddleComponent from './components/MiddleComponent'
 import Navbar from './components/Navbar'
 import Features from './components/Features'
 import CtaSection from './components/CtaSection'
+import Features2 from './components/Features2'
 // import CtaSection from './components/CtaSection'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   <MiddleComponent />
   <Features />
   <CtaSection />
+  <Features2 />
     </div>
   )
 }

@@ -7,22 +7,6 @@ import { IconCircleDashedCheck } from "@tabler/icons-react";
 import { IconExclamationMark } from "@tabler/icons-react";
 import { motion } from "motion/react";
 
-// const badge = ({
-//   badgeicon1,
-//   badgeicon2,
-//   text,
-// }: {
-//   badgeicon1?: React.ReactNode;
-//   badgeicon2?: React.ReactNode;
-//   text: string;
-// }) => {
-//   return (
-//     <div>
-//       {badgeicon1} {badgeicon2}
-//       <p>{text}</p>
-//     </div>
-//   );
-// };
 
 const SkeletonCard = ({
   icon,
